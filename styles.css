@@ -1,0 +1,55 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.readingTable {
+  height: 700px;
+  width: 900px;
+  margin: 0 auto;
+  background-color: azure;
+  background-image: url("../multimedia/graphics/tarot-table.png");
+  background-size: cover;
+  position: relative;
+}
+
+.tarotCard {
+  height: 240px;
+  width: 150px;
+  background-image: url("../multimedia/graphics/cardback.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  position: relative;
+}
+
+.card1 {
+  left: 213px;
+  top: 230px;
+}
+
+.card2 {
+  left: 425px;
+  bottom: 255px;
+}
+
+.card3 {
+  left: 638px;
+  bottom: 250px;
+}
+
+.card4 {
+  left: 425px;
+  bottom: 245px;
+}
+
+.card5 {
+  left: 425px;
+  bottom: 732px;
+}
+
+.commonCard,
+.highCard {
+  height: 240px;
+  width: 150px;
+}
